@@ -851,7 +851,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Can Only Stand On: Warm          Colors'
+  m_text: "Can Only Stand On: \n   Red"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1068,6 +1068,10 @@ PrefabInstance:
     - target: {fileID: 2583044665298475617, guid: 73c0ace6059befd479ce2687de68530f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757719683294657326, guid: 73c0ace6059befd479ce2687de68530f, type: 3}
+      propertyPath: colorMax
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8466145877087364221, guid: 73c0ace6059befd479ce2687de68530f, type: 3}
       propertyPath: m_LocalPosition.x
